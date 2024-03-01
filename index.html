@@ -1,21 +1,61 @@
 
-<section class="stage">
-  <link rel="stylesheet" href="index.css">
-    
-  <div id="home" class="div"> <a href="http://Fredscotts.github.io/Index3.html"></a><p id="homep" class="p">Home</p></div>
-  <div class="div" id="about"><p class="p">About</p>
-  </div>
-  <div class="div" id="contact"><p class="p">Gallery</p>
-  </div>
-  <div class="div" id="gallery"><p class="p">Contact</p>
-  </div>
-</section>
 
 <!DOCTYPE html>
 
 <html>
 <head>
   <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.stage{
+  height: 350px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0;
+  cursor: pointer;
+  width: 100%;
+  background: #78FED6;
+  border-radius: 10px;
+  font-family: Century Gothic;
+  letter-spacing: 5px;
+}
+.div{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  margin-top: 4%;
+ transition-duration: 0.2s;
+
+}
+.p:hover{
+  background: white;
+  color: black;
+}
+.div:nth-child(odd){
+  transform: perspective(300px) rotateY(45deg);
+  box-shadow: -2px 2px 7px gray;
+}
+.div:nth-child(even){
+  transform: perspective(300px) rotateY(-45deg);
+    box-shadow: 2px 2px 7px gray;
+}
+.div:hover{
+  transform: rotateY(0);
+  background: white;
+  color: black;
+  box-shadow: 0px 0px 0px;
+}
+
   body{
     background-color: white;
     
@@ -73,21 +113,26 @@
 
    <a href="https://www.rottentomatoes.com/m/dragon_ball_z_battle_of_gods/pictures">Dragon ball super Battle of gods</a>
 
-<section>
+
   <p><mark>I MADE IT FOR YOU</mark></p>
   <h6>That is cool so <a href="http://Fredscotts.github.io/fredo.html">Signup</a>for more cool photos</h6>
 
+  
 
-<summary>
-  <details>
-  <p>
-    This is was made by cyberworrior/fredscotts 
-Be safe from cyber attacks 
-Thank you for visiting my website 
-    Sponsored by <u>charlos and Derrik</u>
-  </p>
-  </details>
-</summary>
+<section class="stage">
+  <div id="home" class="div"><p id="homep" class="p">Home</p></div>
+  <div class="div" id="about"><p class="p">About</p>
+  </div>
+  <div class="div" id="contact"><p class="p">Gallery</p>
+  </div>
+  <div class="div" id="gallery"><p class="p">Contact</p>
+  </div>
+</section>
+
+
+
+
+
 
 </body>
 </html>

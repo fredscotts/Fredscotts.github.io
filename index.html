@@ -1,117 +1,45 @@
 
 
 <!DOCTYPE html>
-
 <html>
-<head>
   <style>
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.stage{
-  height: 350px;
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.p{
-  font-size: 50px;
-  text-align: center;
-  margin-top: 0;
-  cursor: pointer;
-  width: 100%;
-  background: #78FED6;
-  border-radius: 10px;
-  font-family: Century Gothic;
-  letter-spacing: 5px;
-}
-.div{
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  width: 200px;
-  height: 40px;
-  margin-top: 4%;
- transition-duration: 0.2s;
-
-}
-.p:hover{
-  background: white;
-  color: black;
-}
-.div:nth-child(odd){
-  transform: perspective(300px) rotateY(45deg);
-  box-shadow: -2px 2px 7px gray;
-}
-.div:nth-child(even){
-  transform: perspective(300px) rotateY(-45deg);
-    box-shadow: 2px 2px 7px gray;
-}
-.div:hover{
-  transform: rotateY(0);
-  background: white;
-  color: black;
-  box-shadow: 0px 0px 0px;
-}
-
-  body{
-    background-color: white;
+*{ padding: 0; margin: 0; text-decoration: none; list-style: none; box-sizing: border-box; } body{ font-family: montserrat; } nav{ background: #0082e6; height: 80px; width: 100%; } label.logo{ color: white; font-size: 35px; line-height: 80px; padding: 0 100px; font-weight: bold; } nav ul{ float: right; margin-right: 20px; } nav ul li{ display: inline-block; line-height: 80px; margin: 0 5px; } nav ul li a{ color: white; font-size: 17px; padding: 7px 13px; border-radius: 3px; text-transform: uppercase; } a.active,a:hover{ background: #1b9bff; transition: .5s; } .checkbtn{ font-size: 30px; color: white; float: right; line-height: 80px; margin-right: 40px; cursor: pointer; display: none; } #check{ display: none; } @media (max-width: 952px){ label.logo{ font-size: 30px; padding-left: 50px; } nav ul li a{ font-size: 16px; } } @media (max-width: 858px){ .checkbtn{ display: block; } ul{ position: fixed; width: 100%; height: 100vh; background: #2c3e50; top: 80px; left: -100%; text-align: center; transition: all .5s; } nav ul li{ display: block; margin: 50px 0; line-height: 30px; } nav ul li a{ font-size: 20px; } a:hover,a.active{ background: none; color: #0082e6; } #check:checked ~ ul{ left: 0; } } section{ background: url(bg1.jpg) no-repeat; background-size: cover; height: calc(100vh - 80px); }
     
-    
-  }
-  img{
-    border: outset;
-    border-color: brown;
-    border-shadow: height:50px;
-    
-  }
-  h1,u{
-    border: solid;
-    background-image: url="https://wallpapers.com/images/high/dragon-ball-z-goku-lx7khcn1f5pco5sv.webp";
-    color: yellow ;
-    font-size: 200px
-    
-  }
-  h2{
-    font-size: 120px;
-    border: solid;
-    color: green;
-  }
-  p{
-    font-size: 60px;
-  }
-  h6{
-    font-size: 70px;
-  }
-  a{
-    font-size: 90px;
-  }
-  summary,details{
-    font-size: 60px;
-  }
-  p{
-    font-size: 90px;
-  }
   </style>
+  
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="styles/style.css"/>
   <title>dragon</title>
 </head>
-<body>
+  
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Menu</label>
+      <ul>
+        <li><a class="active" href="http://Fredscotts.github.io/index.html">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="http://Fredscotts.github.io/index3.html">Services</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="http://Fredscotts.github.io/fredo.html">signup</a></li>
+      </ul>
+    </nav>
+    <section></section>
+
   <h1><u>
     DRAGON BALLS</u>
   </h1>
-  <section class="stage">
-  <div id="home" class="div"><p id="homep" class="p">Home</p></div>
-  <div class="div" id="about"><p class="p">About</p>
-  </div>
-  <div class="div" id="contact"><p class="p">Gallery</p>
-  </div>
-  <div class="div" id="gallery"><p class="p">Contact</p>
-  </div>
-  </section>
+  
   <h2>ALL ABOUT DRAGON BALLS</h2>
   <p><i><u>Dragon balls images</u></i></i></p>
   <h2 style="text-align: center;">

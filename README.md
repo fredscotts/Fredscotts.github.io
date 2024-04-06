@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="styles.css">
+    <h2>How to install metasploit6 in termux</h2>
+    apt update & 
+apt upgrade & pkg install wget curl openssh git ruby & curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh & chmod +x metasploit.sh
+./metasploit.sh & msfconsole
 </head>
 <body>
     <header>

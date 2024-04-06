@@ -1,1 +1,43 @@
-Listing all Termux commands would be quite extensive, as it encompasses a wide range of functionalities and utilities. However, here's a list of some commonly used Termux commands:apt: Package manager for installing, updating, and removing packages.pkg: A shortcut for the apt command.apt update: Update the package lists for upgrades.apt upgrade: Upgrade installed packages to their latest versions.apt install [package]: Install a package.apt remove [package]: Remove a package.pkg list: List all installed packages.pkg search [keyword]: Search for packages matching a keyword.clear: Clear the terminal screen.cd [directory]: Change the current directory.ls: List files and directories in the current directory.pwd: Print the current working directory.mkdir [directory]: Create a new directory.rm [file]: Remove (delete) a file.rm -r [directory]: Remove a directory and its contents recursively.cp [source] [destination]: Copy files or directories.mv [source] [destination]: Move or rename files or directories.cat [file]: Display the contents of a file.nano [file]: Open a text editor to create or edit a file.vim [file]: Open the Vim text editor to create or edit a file.curl [URL]: Download files from the internet.wget [URL]: Another tool for downloading files from the internet.ping [host]: Send ICMP Echo Request packets to a host.ifconfig: Show network interface information.termux-open [file]: Open a file using its associated application.termux-setup-storage: Set up storage access for Termux, allowing access to external storage.termux-wake-lock: Prevent the device from sleeping.termux-wake-unlock: Release the wake lock acquired by termux-wake-lock.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termux Hacking Tools</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Termux Hacking Tools</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="installation">
+            <h2>Installation</h2>
+            <p>Instructions for installing Termux and setting up hacking tools.</p>
+        </section>
+        <section id="tools">
+            <h2>Tools</h2>
+            <ul>
+                <li><strong>Nmap:</strong> Network scanner</li>
+                <li><strong>Metasploit:</strong> Exploitation framework</li>
+                <li><strong>John the Ripper:</strong> Password cracker</li>
+                <!-- Add more tools here -->
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>About the website and disclaimer about ethical usage of hacking tools.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Termux Hacking Tools</p>
+    </footer>
+</body>
+</html>

@@ -38,10 +38,10 @@ apt upgrade & pkg install wget curl openssh git ruby & curl -LO https://raw.gith
             <h2>About</h2>
             <p>About the website and disclaimer about ethical usage of hacking tools.</p>
         </section>
+        <section><img src="https://github.com/fredscotts/Fredscotts.github.io/assets/159533417/47025bd3-e74c-4378-abaf-b6f293f65b74"></section>
     </main>
     <footer>
         <p>&copy; 2024 Termux Hacking Tools</p>
     </footer>
 </body>
 </html>
-![fs-logo-monogram-with-emblem-shield-design-vector-29640109](https://github.com/fredscotts/Fredscotts.github.io/assets/159533417/47025bd3-e74c-4378-abaf-b6f293f65b74)

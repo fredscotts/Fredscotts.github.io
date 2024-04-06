@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <h2>How to install metasploit6 in termux</h2>
-    apt update & 
-apt upgrade & pkg install wget curl openssh git ruby & curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh & chmod +x metasploit.sh
-./metasploit.sh & msfconsole
+    
 </head>
 <body>
     <header>
@@ -29,6 +26,11 @@ apt upgrade & pkg install wget curl openssh git ruby & curl -LO https://raw.gith
             <ul>
                 <li><strong>Nmap:</strong> Network scanner</li>
                 <li><strong>Metasploit:</strong> Exploitation framework</li>
+                <h2>How to install metasploit6 in termux </h2>
+                <title><h2>How to install metasploit6 in termux</h2>
+    apt update & 
+apt upgrade & pkg install wget curl openssh git ruby & curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh & chmod +x metasploit.sh
+./metasploit.sh & msfconsole</title>
                 <li><strong>John the Ripper:</strong> Password cracker</li>
                 <!-- Add more tools here -->
             </ul>

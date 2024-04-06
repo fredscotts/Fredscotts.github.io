@@ -27,12 +27,13 @@
                 <li><strong>Nmap:</strong> Network scanner</li>
                 <li><strong>Metasploit:</strong> Exploitation framework</li>
                 <h2>How to install metasploit6 in termux</h2>
-  <bold><copy> apt update & 
+
+
+                
+  <bold>apt update & 
 apt upgrade & pkg install wget curl openssh git ruby & curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh & chmod +x metasploit.sh
 ./metasploit.sh & msfconsole</bold>
-  </copy>
-      
-      
+  
       <li><strong>John the Ripper:</strong> Password cracker</li>
                 <!-- Add more tools here -->
             </ul>

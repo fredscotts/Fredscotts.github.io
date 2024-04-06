@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
-    header("location: login.php");
+    header("location: http://Fredscotts.github.io/login.php");
     exit();
 }
 ?>
@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Website</title>
+    <title>Learn Hacking with Fredscotts</title>
     <style>
         /* CSS styles can be embedded here */
     </style>

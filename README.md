@@ -52,9 +52,9 @@
     <!-- Repeat the above steps for other tools -->
      <h5>For more information visit https://cybersecurity.simdif.com/</h5>
 <h3>Create a website with this tool</h3>
-    apt update && apt upgrade 
+   <code> apt update && apt upgrade 
 apt install git 
-    git clone http://Fredscotts.github.io/web.sh
+    git clone http://Fredscotts.github.io/web.sh</code>
 <h2>Disclaimer:</h2><h5> The provided information is for educational purposes only. Ensure compliance with all applicable laws and regulations.</h5>
 </body>
 </html>

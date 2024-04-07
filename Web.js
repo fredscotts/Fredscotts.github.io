@@ -1,5 +1,5 @@
+// index.js
 const { exec } = require('child_process');
-const { Termux } = require('termux');
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -27,30 +27,16 @@ function generateHTMLPage(title, content) {
   return html;
 }
 
-Termux.dialog
-  .textInput({
-    title: 'Enter page title',
-    inputType: 'text',
-    hint: 'Page Title'
-  })
-  .then(title => {
-    Termux.dialog
-      .textInput({
-        title: 'Enter page content',
-        inputType: 'text',
-        hint: 'Page Content'
-      })
-      .then(content => {
-        const htmlContent = generateHTMLPage(title, content);
-        exec(`echo '${htmlContent}' > index.html`, (error, stdout, stderr) => {
-          if (error) {
-            console.error(`Error: ${error.message}`);
-            return;
-          }
-          Termux.showToast({ text: 'HTML page generated successfully!' });
-        });
-      });
-  })
-  .catch(error => {
-    console.error(`Error: ${error}`);
+rl.question('Enter page title: ', (title) => {
+  rl.question('Enter page content: ', (content) => {
+    const htmlContent = generateHTMLPage(title, content);
+    exec(`echo '${htmlContent}' > index.html`, (error, stdout, stderr) => {
+      if (error) {
+        console.error(`Error: ${error.message}`);
+        return;
+      }
+      console.log('HTML page generated successfully!');
+    });
+    rl.close();
   });
+});

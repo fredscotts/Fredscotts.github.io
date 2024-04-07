@@ -44,10 +44,10 @@
         <li>After installation, update the system: <code>sudo apt update && sudo apt upgrade</code></li>
     </ol>
     <!-- Add images here for Kali Linux and other tools -->
-    <img src="https://www.kali.org/features/" alt="Kali Linux Logo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStGH1aFv_9LgUmO7mQTCoYBscjKmxt2nDHUxp73dEiwg&s" alt="Kali Linux Logo">
     <!-- Repeat the above steps for other tools -->
     
     <h5>For more information visit https://cybersecurity.simdif.com/</h5>
-    <h5>Disclaimer: The provided information is for educational purposes only. Ensure compliance with all applicable laws and regulations.</h5>
+<h5>Disclaimer: The provided information is for educational purposes only. Ensure compliance with all applicable laws and regulations.</h5>
 </body>
 </html>

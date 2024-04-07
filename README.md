@@ -36,6 +36,6 @@
         <li>Install Aircrack-ng using your package manager (e.g., for Debian-based systems: <code>sudo apt-get install aircrack-ng</code>)</li>
         <li>Verify installation: <code>aircrack-ng --version</code></li>
     </ol>
-    <h5>For more information visit herf="https://cybersecurity.simdif.com/"></h5>
+    <h5>For more information visit https://cybersecurity.simdif.com/</h5>
 </body>
 </html>

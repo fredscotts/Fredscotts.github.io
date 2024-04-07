@@ -15,7 +15,6 @@
         <li>Install dependencies: <code>bundle install</code></li>
         <li>Run Metasploit: <code>./msfconsole</code></li>
     </ol>
-
     <h2>Nmap</h2>
     <ol>
         <li>Open a terminal.</li>

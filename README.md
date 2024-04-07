@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termux and Its Tools</title>
+    
     <link rel="stylesheet" href="http://Fredscotts.github.io/styles.css">
 </head>
 <body>
@@ -27,7 +27,32 @@
         </section>
     </main>
     <footer>
-        <p>Learn more about Termux and its tools at <a href="https://termux.com/">termux.com</a></p>
+        <p>Learn more about Termux and its tools at <a href="https://https://cybersecurity.simdif.com/">termux.com</a></p>
+
+    <header>
+        <h1>Installing John the Ripper in Termux</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Step 1: Update and Upgrade</h2>
+            <p>Open Termux and run the following command to update and upgrade the package repositories:</p>
+            <pre><code>pkg update && pkg upgrade</code></pre>
+        </section>
+        <section>
+            <h2>Step 2: Install John the Ripper</h2>
+            <p>Once the repositories are updated, install John the Ripper by running:</p>
+            <pre><code>pkg install john</code></pre>
+        </section>
+        <section>
+            <h2>Step 3: Verify Installation</h2>
+            <p>To verify that John the Ripper has been installed successfully, you can run the following command:</p>
+            <pre><code>john --version</code></pre>
+        </section>
+    </main>
+    <footer>
+        <p>For more information, refer to the <a href="https://termux.com/">Termux website</a>.</p>
+    
+        
     </footer>
 </body>
 </html>

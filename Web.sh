@@ -1,12 +1,10 @@
 // index.js
 const { exec } = require('child_process');
 const readline = require('readline');
-
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-
 function generateHTMLPage(title, content) {
   const html = `
     <!DOCTYPE html>
@@ -26,7 +24,6 @@ function generateHTMLPage(title, content) {
   `;
   return html;
 }
-
 rl.question('Enter page title: ', (title) => {
   rl.question('Enter page content: ', (content) => {
     const htmlContent = generateHTMLPage(title, content);

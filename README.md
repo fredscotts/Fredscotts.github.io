@@ -54,7 +54,11 @@
 <h3>Create a website with this tool</h3>
    <code> apt update && apt upgrade 
 apt install git 
-    git clone http://Fredscotts.github.io/web.sh</code>
+       apt install nodejs
+    git clone https://github.com/fredscotts/Fredscotts.github.io 
+       cd Fredscotts.github.io
+       node Web.js
+   </code>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN1yblIgo48UvB5Afng1C3tJGH4RWeir6Ff5e95Bouug&s" alt="Web logo">
 <h2>Disclaimer:</h2><h5> The provided information is for educational purposes only. Ensure compliance with all applicable laws and regulations.</h5>
 </body>

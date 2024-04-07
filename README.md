@@ -21,7 +21,6 @@
         <li>Install Nmap using your package manager (e.g., for Debian-based systems: <code>sudo apt-get install nmap</code>)</li>
         <li>Verify installation: <code>nmap --version</code></li>
     </ol>
-
     <h2>John the Ripper</h2>
     <ol>
         <li>Open a terminal.</li>
@@ -31,12 +30,12 @@
         <li>Compile John the Ripper: <code>./configure && make -s clean && make -sj4</code></li>
         <li>Verify installation: <code>./run/john --version</code></li>
     </ol>
-
     <h2>Aircrack-ng</h2>
     <ol>
         <li>Open a terminal.</li>
         <li>Install Aircrack-ng using your package manager (e.g., for Debian-based systems: <code>sudo apt-get install aircrack-ng</code>)</li>
         <li>Verify installation: <code>aircrack-ng --version</code></li>
     </ol>
+    <h5>For more information visit herf="https://cybersecurity.simdif.com/"></h5>
 </body>
 </html>

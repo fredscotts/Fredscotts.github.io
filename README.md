@@ -44,7 +44,7 @@
         <li>After installation, update the system: <code>sudo apt update && sudo apt upgrade</code></li>
     </ol>
     <!-- Add images here for Kali Linux and other tools -->
-    <img src="kali_linux_image.jpg" alt="Kali Linux Logo">
+    <img src="https://www.kali.org/features/" alt="Kali Linux Logo">
     <!-- Repeat the above steps for other tools -->
     
     <h5>For more information visit https://cybersecurity.simdif.com/</h5>
